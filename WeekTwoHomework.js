@@ -2,10 +2,6 @@
 let pizzaPlace = "Big Ole Pizza Store";
 let numberOfToppings = 39;
 
-//Assigning Variables
-//pizzaPlace = "Big Ole Pizza Store";
-//numberOfToppings = 39;
-
 //Printing Variable Values
 console.log(pizzaPlace);
 console.log(numberOfToppings);
