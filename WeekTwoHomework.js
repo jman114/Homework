@@ -15,3 +15,12 @@ console.log(pizzaSummary);
 
 let toppings = 10;
 toppings >= 10 ? console.log("A whole lot of pizza") : console.log("Quality, not quantity.");
+
+
+//Bonus 
+
+let x = 0;
+    while (x <= 39) {
+        console.log(x);
+x += 2;
+}
