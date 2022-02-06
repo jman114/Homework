@@ -18,9 +18,19 @@ toppings >= 10 ? console.log("A whole lot of pizza") : console.log("Quality, not
 
 
 //Bonus 
+// Went to study hall and realized I was doing this wrong and the code below this is what I ended up with.
+// let x = 0;
+//     while (x <= 39) {
+//         console.log(x);
+// x += 2;
+// }
 
-let x = 0;
-    while (x <= 39) {
-        console.log(x);
-x += 2;
-}
+
+//Iteration is checking if i less than or equal to the numberOfToppings, if not add 1.
+for (let i = 1; i <= numberOfToppings; i++){
+    // Checking to see if it's an even number.
+      if (i % 2 === 0){
+        console.log(i);
+      }
+      
+  }
