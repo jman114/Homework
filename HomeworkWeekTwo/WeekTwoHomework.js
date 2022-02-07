@@ -17,6 +17,7 @@ let toppings = 10;
 toppings >= 10 ? console.log("A whole lot of pizza") : console.log("Quality, not quantity.");
 
 
+
 //Bonus 
 // Went to study hall and realized I was doing this wrong and the code below this is what I ended up with.
 // let x = 0;
