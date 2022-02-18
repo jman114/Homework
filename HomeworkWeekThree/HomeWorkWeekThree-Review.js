@@ -1,3 +1,4 @@
+//Did this before going over it in class
 //Create an array of pizzaToppings with at least four different toppings
 
 const pizzaToppings = ["pepperoni", "bacon", "sausage", "chicken"]
@@ -34,7 +35,7 @@ function getPizzaOrder(size, crust, ...pizzaToppings) {
 //getPizzaOrder("Large ", "Thick ","pepperoni ", "sausage "," bacon");
 
 // preparePizza Function
-let pizzaInput = getPizzaOrder("Large ", "Thick ","pepperoni ", "sausage "," bacon")
+let pizzaInput = getPizzaOrder("Large ", "Thick ", "pepperoni ", "sausage "," bacon")
 const preparePizza = function ([orderSize, orderCrust, orderToppings]){
   console.log("cooking pizza...");
   return {
@@ -53,6 +54,6 @@ function servePizza(pizza) {
      message += `${name}`;
    }
    //console.log(message);
-   return pizza;
+   //return pizza;
 }
 servePizza(cooked);
