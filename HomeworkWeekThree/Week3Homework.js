@@ -1,5 +1,7 @@
+//pizzaToppings Array
 pizzaToppings = ["Pepperoni, ",  "Cheese, ", "Sausage, ", "and Bacon. "];
 
+//greetCustomer Function 
 function greetCustomers() {
   let str = "Welcome to Pizza House, our toppings are ";
 
@@ -10,19 +12,14 @@ function greetCustomers() {
 }
 greetCustomers();
 
-//Pizza Order Function
-function pizzaOrder(size, crust, ...pizzaToppings) {
+//getPizzaOrder Function
+function getPizzaOrder(size, crust, ...pizzaToppings) {
     
     return console.log("One", size  +  crust + pizzaToppings)
 }
 
 // again, invoke the function and pass in more than two numbers
-pizzaOrder("Large ", "Thick ", "pepperoni, ", "sausage ", " bacon");
-
-
-
-
-
+getPizzaOrder("Large ", "Thick ", "pepperoni, ", "sausage ", " bacon");
 
 
 
