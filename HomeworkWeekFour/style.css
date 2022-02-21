@@ -71,12 +71,6 @@ h2 {
 
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
 footer {
   background-color: #B0123c;
@@ -84,4 +78,11 @@ footer {
 
 html {
   background-color: #496DDB;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
