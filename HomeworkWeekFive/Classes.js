@@ -44,7 +44,7 @@ class GameComplete extends VideoGames {
 
 console.log("\n Game Consoles ... \n", GameComplete);
 
-const GameOne = new GameComplete(313, "Maga Man", 59.99, "Shooter", "Playstation 5");
+const GameOne = new GameComplete(313, "Mega Man", 59.99, "Shooter", "Playstation 5");
 
 GameOne.play = function() {
     return 'I love to play video games!';
